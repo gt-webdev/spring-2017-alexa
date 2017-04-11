@@ -15,7 +15,7 @@ app.post('/', function(req, res) {
       }
     }
   }
-
+  console.log(response);
   res.send(response);
 });
 
