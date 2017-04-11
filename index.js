@@ -11,7 +11,7 @@ app.post('/', function(req, res) {
     "response": {
       "outputSpeech": {
         "type": "PlainText",
-        "text": "I like " + req.body.request.intent.slots.subject.value
+        "text": req.body.request.intent.slots.subject.value
       }
     }
   }
