@@ -1,0 +1,23 @@
+{
+  "name": "spring-2017-alexa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gt-webdev/spring-2017-alexa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gt-webdev/spring-2017-alexa/issues"
+  },
+  "homepage": "https://github.com/gt-webdev/spring-2017-alexa#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
