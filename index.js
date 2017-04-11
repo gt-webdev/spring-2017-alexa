@@ -5,7 +5,7 @@ var app = express();
 
 app.use(bodyParser.json());
 
-app.get('/', function(req, res) {
+app.post('/', function(req, res) {
   var response = {
     "version": "1.0",
     "response": {
